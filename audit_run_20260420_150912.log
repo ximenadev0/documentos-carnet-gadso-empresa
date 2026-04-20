@@ -1,0 +1,277 @@
+[2026-04-20 15:09:12.692] === AUDIT RUN.BAT INICIADO ===
+[2026-04-20 15:09:12.749] Directorio de trabajo: C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso
+[2026-04-20 15:09:12.753] PID actual: 22028
+[2026-04-20 15:09:12.757] Iniciando run.bat...
+[2026-04-20 15:09:12.801] PID del proceso: 20188
+[2026-04-20 15:09:17.857] Python activo: 4 procesos | CPU: 117.4375%
+[2026-04-20 15:09:17.879] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:09:17.885] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:17.892] Tiempo transcurrido: 5 segundos
+[2026-04-20 15:09:22.901] Python activo: 4 procesos | CPU: 117.5%
+[2026-04-20 15:09:22.912] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:09:22.912] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:22.924] Tiempo transcurrido: 10 segundos
+[2026-04-20 15:09:27.945] Python activo: 4 procesos | CPU: 117.5%
+[2026-04-20 15:09:27.957] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:09:27.962] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:27.965] Tiempo transcurrido: 15 segundos
+[2026-04-20 15:09:32.973] Python activo: 4 procesos | CPU: 117.765625%
+[2026-04-20 15:09:32.996] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:09:33.001] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:33.004] Tiempo transcurrido: 20 segundos
+[2026-04-20 15:09:38.015] Python activo: 4 procesos | CPU: 118.328125%
+[2026-04-20 15:09:38.028] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:09:38.032] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:38.036] Tiempo transcurrido: 25 segundos
+[2026-04-20 15:09:43.050] Python activo: 4 procesos | CPU: 121.171875%
+[2026-04-20 15:09:43.063] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:09:43.069] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:43.074] Tiempo transcurrido: 30 segundos
+[2026-04-20 15:09:48.088] Python activo: 4 procesos | CPU: 117.40625%
+[2026-04-20 15:09:48.105] FOTO CARNE: 2026-04-20 15:09:46 | INFO | [FOTO CARNE] Cola source=https://docs.google.com/spreadsheets/d/1C-V6wNGXQEVfncbldOQfhDKT7Qwuk2BV6Y_gnV5-O4U/edit?gid=214579984#gid=214579984 | fuente=https://docs.google.com/spreadsheets/d/1I5CmLAxZxA5gIlHz_m5kDPTaHIs1yOEWvy7tN4Ia2hs/edit?pli=1&gid=999619533#gid=999619533
+[2026-04-20 15:09:48.110] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:48.113] Tiempo transcurrido: 35 segundos
+[2026-04-20 15:09:53.128] Python activo: 4 procesos | CPU: 117.859375%
+[2026-04-20 15:09:53.136] FOTO CARNE: 2026-04-20 15:09:52 | INFO | [FOTO CARNE] Fuente cargada | filas=4708 | dni_con_foto=4215
+[2026-04-20 15:09:53.137] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:53.137] Tiempo transcurrido: 40 segundos
+[2026-04-20 15:09:58.141] Python activo: 4 procesos | CPU: 117.90625%
+[2026-04-20 15:09:58.154] FOTO CARNE: 2026-04-20 15:09:52 | INFO | [FOTO CARNE] Fuente cargada | filas=4708 | dni_con_foto=4215
+[2026-04-20 15:09:58.159] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:09:58.162] Tiempo transcurrido: 45 segundos
+[2026-04-20 15:10:03.182] Python activo: 4 procesos | CPU: 120.75%
+[2026-04-20 15:10:03.194] FOTO CARNE: 2026-04-20 15:10:03 | INFO | [FOTO CARNE] Hoja actualizada | fila=3 | estado=EN PROCESO W2 | observacion=
+[2026-04-20 15:10:03.199] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:03.203] Tiempo transcurrido: 50 segundos
+[2026-04-20 15:10:08.221] Python activo: 4 procesos | CPU: 124%
+[2026-04-20 15:10:08.232] FOTO CARNE: 2026-04-20 15:10:03 | INFO | [FOTO CARNE] Hoja actualizada | fila=3 | estado=EN PROCESO W2 | observacion=
+[2026-04-20 15:10:08.238] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:08.242] Tiempo transcurrido: 56 segundos
+[2026-04-20 15:10:13.251] Python activo: 4 procesos | CPU: 126.421875%
+[2026-04-20 15:10:13.273] FOTO CARNE: 2026-04-20 15:10:03 | INFO | [FOTO CARNE] Hoja actualizada | fila=3 | estado=EN PROCESO W2 | observacion=
+[2026-04-20 15:10:13.278] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:13.283] Tiempo transcurrido: 61 segundos
+[2026-04-20 15:10:18.298] Python activo: 4 procesos | CPU: 140.90625%
+[2026-04-20 15:10:18.323] FOTO CARNE: 2026-04-20 15:10:03 | INFO | [FOTO CARNE] Hoja actualizada | fila=3 | estado=EN PROCESO W2 | observacion=
+[2026-04-20 15:10:18.340] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:18.349] Tiempo transcurrido: 66 segundos
+[2026-04-20 15:10:23.377] Python activo: 4 procesos | CPU: 147.921875%
+[2026-04-20 15:10:23.394] FOTO CARNE: 2026-04-20 15:10:03 | INFO | [FOTO CARNE] Hoja actualizada | fila=3 | estado=EN PROCESO W2 | observacion=
+[2026-04-20 15:10:23.419] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:23.423] Tiempo transcurrido: 71 segundos
+[2026-04-20 15:10:28.440] Python activo: 4 procesos | CPU: 154.953125%
+[2026-04-20 15:10:28.449] FOTO CARNE: 2026-04-20 15:10:28 | INFO | [FOTO CARNE][W2][41628670] OK | C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13\41628670\foto_carne_41628670.jpg
+[2026-04-20 15:10:28.449] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:28.449] Tiempo transcurrido: 76 segundos
+[2026-04-20 15:10:33.483] Python activo: 4 procesos | CPU: 156.203125%
+[2026-04-20 15:10:33.490] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:10:33.496] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:33.501] Tiempo transcurrido: 81 segundos
+[2026-04-20 15:10:38.520] Python activo: 4 procesos | CPU: 156.203125%
+[2026-04-20 15:10:38.527] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:10:38.532] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:38.532] Tiempo transcurrido: 86 segundos
+[2026-04-20 15:10:43.553] Python activo: 4 procesos | CPU: 156.234375%
+[2026-04-20 15:10:43.560] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:10:43.564] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:43.568] Tiempo transcurrido: 91 segundos
+[2026-04-20 15:10:48.585] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:10:48.598] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:10:48.603] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:48.603] Tiempo transcurrido: 96 segundos
+[2026-04-20 15:10:53.615] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:10:53.631] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:10:53.636] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:53.640] Tiempo transcurrido: 101 segundos
+[2026-04-20 15:10:58.655] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:10:58.665] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:10:58.665] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:10:58.665] Tiempo transcurrido: 106 segundos
+[2026-04-20 15:11:03.699] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:03.710] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:03.716] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:03.719] Tiempo transcurrido: 111 segundos
+[2026-04-20 15:11:08.738] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:08.749] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:08.753] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:08.753] Tiempo transcurrido: 116 segundos
+[2026-04-20 15:11:13.776] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:13.784] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:13.784] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:13.784] Tiempo transcurrido: 121 segundos
+[2026-04-20 15:11:18.788] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:18.804] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:18.810] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:18.814] Tiempo transcurrido: 126 segundos
+[2026-04-20 15:11:23.844] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:23.851] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:23.855] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:23.858] Tiempo transcurrido: 131 segundos
+[2026-04-20 15:11:28.868] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:28.878] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:28.886] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:28.889] Tiempo transcurrido: 136 segundos
+[2026-04-20 15:11:33.911] Python activo: 4 procesos | CPU: 156.25%
+[2026-04-20 15:11:33.924] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:33.929] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:33.933] Tiempo transcurrido: 141 segundos
+[2026-04-20 15:11:38.953] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:11:38.953] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:38.970] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:38.974] Tiempo transcurrido: 146 segundos
+[2026-04-20 15:11:43.987] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:11:44.004] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:44.009] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:44.012] Tiempo transcurrido: 151 segundos
+[2026-04-20 15:11:49.027] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:11:49.034] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:49.038] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:49.038] Tiempo transcurrido: 156 segundos
+[2026-04-20 15:11:54.060] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:11:54.067] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:54.072] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:54.072] Tiempo transcurrido: 161 segundos
+[2026-04-20 15:11:59.072] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:11:59.090] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:11:59.094] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:11:59.098] Tiempo transcurrido: 166 segundos
+[2026-04-20 15:12:04.111] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:12:04.118] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:04.123] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:04.127] Tiempo transcurrido: 171 segundos
+[2026-04-20 15:12:09.146] Python activo: 4 procesos | CPU: 156.296875%
+[2026-04-20 15:12:09.157] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:09.157] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:09.157] Tiempo transcurrido: 176 segundos
+[2026-04-20 15:12:14.158] Python activo: 4 procesos | CPU: 156.328125%
+[2026-04-20 15:12:14.158] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:14.176] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:14.179] Tiempo transcurrido: 181 segundos
+[2026-04-20 15:12:19.196] Python activo: 4 procesos | CPU: 156.328125%
+[2026-04-20 15:12:19.202] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:19.208] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:19.211] Tiempo transcurrido: 187 segundos
+[2026-04-20 15:12:24.230] Python activo: 4 procesos | CPU: 156.328125%
+[2026-04-20 15:12:24.242] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:24.242] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:24.242] Tiempo transcurrido: 192 segundos
+[2026-04-20 15:12:29.242] Python activo: 4 procesos | CPU: 156.375%
+[2026-04-20 15:12:29.260] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:29.264] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:29.267] Tiempo transcurrido: 197 segundos
+[2026-04-20 15:12:34.281] Python activo: 4 procesos | CPU: 156.4375%
+[2026-04-20 15:12:34.293] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:34.297] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:34.301] Tiempo transcurrido: 202 segundos
+[2026-04-20 15:12:39.318] Python activo: 4 procesos | CPU: 156.4375%
+[2026-04-20 15:12:39.325] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:39.330] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:39.330] Tiempo transcurrido: 207 segundos
+[2026-04-20 15:12:44.349] Python activo: 4 procesos | CPU: 156.46875%
+[2026-04-20 15:12:44.360] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:44.363] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:44.363] Tiempo transcurrido: 212 segundos
+[2026-04-20 15:12:49.385] Python activo: 4 procesos | CPU: 156.46875%
+[2026-04-20 15:12:49.391] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:49.396] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:49.399] Tiempo transcurrido: 217 segundos
+[2026-04-20 15:12:54.412] Python activo: 4 procesos | CPU: 156.46875%
+[2026-04-20 15:12:54.412] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:54.431] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:54.435] Tiempo transcurrido: 222 segundos
+[2026-04-20 15:12:59.446] Python activo: 4 procesos | CPU: 156.46875%
+[2026-04-20 15:12:59.464] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:12:59.468] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:12:59.471] Tiempo transcurrido: 227 segundos
+[2026-04-20 15:13:04.485] Python activo: 4 procesos | CPU: 156.46875%
+[2026-04-20 15:13:04.497] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:04.501] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:04.507] Tiempo transcurrido: 232 segundos
+[2026-04-20 15:13:09.518] Python activo: 4 procesos | CPU: 156.5%
+[2026-04-20 15:13:09.525] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:09.532] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:09.532] Tiempo transcurrido: 237 segundos
+[2026-04-20 15:13:14.552] Python activo: 4 procesos | CPU: 156.5%
+[2026-04-20 15:13:14.559] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:14.564] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:14.567] Tiempo transcurrido: 242 segundos
+[2026-04-20 15:13:19.582] Python activo: 4 procesos | CPU: 156.53125%
+[2026-04-20 15:13:19.594] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:19.599] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:19.601] Tiempo transcurrido: 247 segundos
+[2026-04-20 15:13:24.618] Python activo: 4 procesos | CPU: 156.5625%
+[2026-04-20 15:13:24.634] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:24.639] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:24.643] Tiempo transcurrido: 252 segundos
+[2026-04-20 15:13:29.651] Python activo: 4 procesos | CPU: 156.59375%
+[2026-04-20 15:13:29.666] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:29.671] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:29.674] Tiempo transcurrido: 257 segundos
+[2026-04-20 15:13:34.687] Python activo: 4 procesos | CPU: 156.59375%
+[2026-04-20 15:13:34.696] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:34.701] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:34.702] Tiempo transcurrido: 262 segundos
+[2026-04-20 15:13:39.702] Python activo: 4 procesos | CPU: 156.65625%
+[2026-04-20 15:13:39.719] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:39.724] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:39.728] Tiempo transcurrido: 267 segundos
+[2026-04-20 15:13:44.736] Python activo: 4 procesos | CPU: 156.65625%
+[2026-04-20 15:13:44.750] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:44.754] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:44.758] Tiempo transcurrido: 272 segundos
+[2026-04-20 15:13:49.775] Python activo: 4 procesos | CPU: 156.671875%
+[2026-04-20 15:13:49.785] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:49.785] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:49.785] Tiempo transcurrido: 277 segundos
+[2026-04-20 15:13:54.813] Python activo: 4 procesos | CPU: 156.671875%
+[2026-04-20 15:13:54.821] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:54.827] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:54.827] Tiempo transcurrido: 282 segundos
+[2026-04-20 15:13:59.858] Python activo: 4 procesos | CPU: 156.671875%
+[2026-04-20 15:13:59.867] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:13:59.872] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:13:59.872] Tiempo transcurrido: 287 segundos
+[2026-04-20 15:14:04.893] Python activo: 4 procesos | CPU: 156.671875%
+[2026-04-20 15:14:04.901] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:04.905] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:04.905] Tiempo transcurrido: 292 segundos
+[2026-04-20 15:14:09.911] Python activo: 4 procesos | CPU: 156.703125%
+[2026-04-20 15:14:09.924] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:09.929] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:09.932] Tiempo transcurrido: 297 segundos
+[2026-04-20 15:14:14.945] Python activo: 4 procesos | CPU: 156.703125%
+[2026-04-20 15:14:14.952] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:14.956] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:14.956] Tiempo transcurrido: 302 segundos
+[2026-04-20 15:14:19.978] Python activo: 4 procesos | CPU: 156.71875%
+[2026-04-20 15:14:19.985] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:19.990] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:19.990] Tiempo transcurrido: 307 segundos
+[2026-04-20 15:14:24.993] Python activo: 4 procesos | CPU: 156.765625%
+[2026-04-20 15:14:25.013] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:25.018] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:25.021] Tiempo transcurrido: 312 segundos
+[2026-04-20 15:14:30.041] Python activo: 4 procesos | CPU: 156.765625%
+[2026-04-20 15:14:30.057] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:30.057] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:30.057] Tiempo transcurrido: 317 segundos
+[2026-04-20 15:14:35.080] Python activo: 4 procesos | CPU: 156.765625%
+[2026-04-20 15:14:35.090] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:35.094] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:35.097] Tiempo transcurrido: 322 segundos
+[2026-04-20 15:14:40.108] Python activo: 4 procesos | CPU: 156.78125%
+[2026-04-20 15:14:40.108] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:40.126] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:40.130] Tiempo transcurrido: 327 segundos
+[2026-04-20 15:14:45.143] Python activo: 4 procesos | CPU: 156.78125%
+[2026-04-20 15:14:45.155] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:45.160] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:45.163] Tiempo transcurrido: 332 segundos
+[2026-04-20 15:14:50.181] Python activo: 4 procesos | CPU: 156.78125%
+[2026-04-20 15:14:50.191] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:50.194] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:50.194] Tiempo transcurrido: 337 segundos
+[2026-04-20 15:14:55.210] Python activo: 4 procesos | CPU: 156.8125%
+[2026-04-20 15:14:55.220] FOTO CARNE: 2026-04-20 15:10:30 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-09-13
+[2026-04-20 15:14:55.226] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:14:55.230] Tiempo transcurrido: 343 segundos

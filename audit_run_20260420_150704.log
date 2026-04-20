@@ -1,0 +1,24 @@
+[2026-04-20 15:07:04.311] === AUDIT RUN.BAT INICIADO ===
+[2026-04-20 15:07:04.409] Directorio de trabajo: C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso
+[2026-04-20 15:07:04.410] PID actual: 23688
+[2026-04-20 15:07:04.419] Iniciando run.bat...
+[2026-04-20 15:07:04.480] PID del proceso: 4036
+[2026-04-20 15:07:09.691] Python activo: 4 procesos | CPU: 117.359375%
+[2026-04-20 15:07:09.756] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:07:09.764] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:07:09.773] Tiempo transcurrido: 5 segundos
+[2026-04-20 15:07:14.804] Python activo: 4 procesos | CPU: 117.359375%
+[2026-04-20 15:07:14.825] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:07:14.838] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:07:14.845] Tiempo transcurrido: 10 segundos
+[2026-04-20 15:07:19.943] Python activo: 4 procesos | CPU: 116.78125%
+[2026-04-20 15:07:19.972] FOTO CARNE: 2026-04-20 15:01:45 | INFO | [FOTO CARNE] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-00-38
+[2026-04-20 15:07:19.981] DJ FUT: 2026-04-20 15:00:04 | INFO | [DJ FUT] Flujo completado | workers=2 | procesados=2 | descargados=2 | sin_registros=0 | errores=0 | lote=C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-14-58-32
+[2026-04-20 15:07:19.992] Tiempo transcurrido: 16 segundos
+[2026-04-20 15:07:20.018] Proceso terminado con c√≥digo: 
+[2026-04-20 15:07:20.047] Tiempo total: 04/20/2026 15:07:20 - 04/20/2026 15:07:04
+[2026-04-20 15:07:20.063] === √öLTIMA L√çNEA DE run_output.log ===
+[2026-04-20 15:07:20.095] [RUN] Lote compartido: C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\lotes\lote-20-04-2026-15-07-05 [RUN] Iniciando GALENIUS... [GALENIUS] El flujo termino con error. Codigo=1 [RUN] GALENIUS finalizo con codigo 1. [ERROR] El flujo galenius termino con codigo 1.
+[2026-04-20 15:07:20.099] === √öLTIMA L√çNEA DE run_error.log ===
+[2026-04-20 15:07:20.108]   File "C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\flows\galenius_flow\sheets.py", line 84, in read_google_sheet_rows     text = _download_text(csv_url, timeout_sec=timeout_sec, retries=retries, retry_base_ms=retry_base_ms)   File "C:\Users\bnunez\Desktop\BOTS SUCAMEC\documentos-carnet-gadso\flows\galenius_flow\sheets.py", line 75, in _download_text     raise RuntimeError(f"No se pudo leer la hoja remota: {last_exc}") from last_exc RuntimeError: No se pudo leer la hoja remota: <urlopen error [WinError 10061] No se puede establecer una conexiÛn ya que el equipo de destino denegÛ expresamente dicha conexiÛn>
+[2026-04-20 15:07:20.113] === AUDIT COMPLETADO ===
