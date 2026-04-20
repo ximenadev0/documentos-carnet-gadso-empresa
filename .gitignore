@@ -9,6 +9,10 @@ secrets/
 logs/
 lotes/
 data/
+*.log
+audit_run_*.log
+run_error.log
+run_output.log
 
 # Python cache and virtual environments
 __pycache__/

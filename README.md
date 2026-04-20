@@ -103,6 +103,7 @@ Si el PDF supera el umbral configurado, el flujo intenta optimizarlo antes de gu
 - `run_galenius.py`: entrypoint unico del flujo.
 - `run.bat`: launcher unico en raiz para ejecutar cualquier flujo.
 - `scripts/bat/run_galenius_login.bat`: launcher interno de Galenius.
+- `tools/audit/audit_run.ps1`: utilidad manual para auditar `run.bat all`.
 - `flows/galenius_flow/config.py`: configuracion por variables de entorno.
 - `flows/galenius_flow/main_flow.py`: orquestacion del flujo actual.
 - `flows/galenius_flow/selectors.py`: selectores de UI y candidatos de scraping.
@@ -134,10 +135,13 @@ Cada subcarpeta de `logs` conserva como maximo 10 corridas historicas:
 - `logs/foto_carne`
 - `logs/firma_digital`
 - `logs/galenius`
+- `logs/audit`
 
 Cuando se registra una corrida nueva y se supera el tope, se elimina solo la carpeta mas antigua.
 
 En Galenius, `GALENIUS_AUDIT_MAX_RUN_DIRS` solo puede reducir el tope, nunca aumentarlo por encima de 10.
+
+`logs/audit` guarda auditorias manuales generadas por `tools/audit/audit_run.ps1`, incluyendo `audit_run_*.log`, `run_output.log` y `run_error.log`. Esos archivos son salida de ejecucion y no forman parte del codigo fuente.
 
 ## Retencion De Lotes
 
