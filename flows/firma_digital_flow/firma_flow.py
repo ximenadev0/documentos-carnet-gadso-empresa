@@ -1,5 +1,6 @@
 import importlib
 import io
+import mimetypes
 import os
 import re
 import threading
@@ -12,6 +13,7 @@ from .sheets import read_google_sheet_rows
 
 
 _thread_local = threading.local()
+_MULTIPLE_VALUE_PREFIX = "__MULTIPLE__|"
 
 
 def _normalizar_texto(texto: str) -> str:
@@ -67,14 +69,15 @@ def cargar_fuente_firma_por_dni(sheet_url: str, logger) -> dict[str, str]:
 
         if dni in resultado and resultado[dni] != raw_url:
             prev = resultado[dni]
-            if not str(prev).startswith("__MULTIPLE__"):
+            if not str(prev).startswith(_MULTIPLE_VALUE_PREFIX):
                 duplicados.setdefault(dni, set()).add(prev)
             duplicados.setdefault(dni, set()).add(raw_url)
-            resultado[dni] = "__MULTIPLE__"
+            resultado[dni] = _MULTIPLE_VALUE_PREFIX + "|".join(sorted(duplicados[dni]))
             continue
 
-        if str(resultado.get(dni, "")).startswith("__MULTIPLE__"):
+        if str(resultado.get(dni, "")).startswith(_MULTIPLE_VALUE_PREFIX):
             duplicados.setdefault(dni, set()).add(raw_url)
+            resultado[dni] = _MULTIPLE_VALUE_PREFIX + "|".join(sorted(duplicados[dni]))
             continue
 
         resultado[dni] = raw_url
@@ -113,6 +116,18 @@ def _extraer_drive_file_id(raw: str) -> str:
     return ""
 
 
+def _extraer_urls_multiples_firma(raw: str) -> list[str]:
+    texto = str(raw or "")
+    if not texto.startswith(_MULTIPLE_VALUE_PREFIX):
+        return []
+    urls = []
+    for item in texto[len(_MULTIPLE_VALUE_PREFIX) :].split("|"):
+        item = item.strip()
+        if item and item not in urls:
+            urls.append(item)
+    return urls
+
+
 def _drive_service(credentials_path: str):
     svc = getattr(_thread_local, "drive_service", None)
     if svc is not None:
@@ -128,15 +143,16 @@ def _drive_service(credentials_path: str):
     return svc
 
 
-def _descargar_drive_bytes(file_id: str, credentials_path: str) -> tuple[bytes, str]:
+def _descargar_drive_bytes(file_id: str, credentials_path: str) -> tuple[bytes, str, str]:
     service = _drive_service(credentials_path)
     meta = service.files().get(fileId=file_id, fields="id,name,mimeType", supportsAllDrives=True).execute()
+    name = str(meta.get("name", "") or "")
     mime = str(meta.get("mimeType", "") or "")
 
     content = service.files().get_media(fileId=file_id, supportsAllDrives=True).execute()
     if not isinstance(content, (bytes, bytearray)):
         raise RuntimeError("Drive no devolvio binario para firma digital")
-    return bytes(content), mime
+    return bytes(content), mime, name
 
 
 def _cargar_cv2_numpy():
@@ -962,6 +978,134 @@ def _guardar_firma_local(
     return final_path, temp_path, False
 
 
+def _resolver_extension_firma_original(name: str, mime: str) -> str:
+    ext = Path(str(name or "").strip()).suffix.lower()
+    if ext and re.fullmatch(r"\.[a-z0-9]{1,8}", ext):
+        return ext
+
+    guessed = mimetypes.guess_extension(str(mime or "").strip().lower())
+    if guessed:
+        return guessed.lower()
+
+    return ".bin"
+
+
+def _guardar_firma_original_revision(
+    lote_dir: Path,
+    dni: str,
+    content: bytes,
+    mime: str,
+    name: str,
+    overwrite_existing: bool,
+    suffix: str = "original_revision",
+) -> Path:
+    destino_dir = lote_dir / dni
+    destino_dir.mkdir(parents=True, exist_ok=True)
+
+    ext = _resolver_extension_firma_original(name, mime)
+    suffix_clean = re.sub(r"[^a-zA-Z0-9_-]+", "_", str(suffix or "original_revision")).strip("_")
+    if not suffix_clean:
+        suffix_clean = "original_revision"
+    destino = destino_dir / f"firma_digital_{dni}_{suffix_clean}{ext}"
+
+    if destino.exists() and not overwrite_existing:
+        return destino
+
+    if destino.exists() and overwrite_existing:
+        destino.unlink()
+
+    destino.write_bytes(content)
+    if not destino.exists() or destino.stat().st_size <= 0:
+        raise RuntimeError("firma original para revision quedo vacia tras guardar")
+    return destino
+
+
+def _revision_manual_con_original(
+    *,
+    dni: str,
+    lote_dir: Path,
+    content: bytes,
+    mime: str,
+    name: str,
+    overwrite_existing: bool,
+    observation: str,
+    detail: str,
+    suffix: str = "original_revision",
+) -> dict:
+    try:
+        local_path = _guardar_firma_original_revision(
+            lote_dir=lote_dir,
+            dni=dni,
+            content=content,
+            mime=mime,
+            name=name,
+            overwrite_existing=overwrite_existing,
+            suffix=suffix,
+        )
+        return {
+            "status": "revision_manual",
+            "observation": observation,
+            "detail": f"mime={mime} archivo={name} {detail} original_guardado={local_path}",
+            "local_path": str(local_path),
+        }
+    except Exception as save_exc:
+        return {
+            "status": "error_procesamiento",
+            "observation": f"{dni} ERROR GUARDADO FIRMA PARA REVISION",
+            "detail": f"mime={mime} archivo={name} {detail} save_exception={save_exc}",
+        }
+
+
+def _guardar_multiples_firmas_para_revision(
+    *,
+    dni: str,
+    urls: list[str],
+    credentials_path: str,
+    lote_dir: Path,
+    overwrite_existing: bool,
+) -> dict:
+    guardadas: list[str] = []
+    errores: list[str] = []
+
+    for idx, url in enumerate(urls, start=1):
+        file_id = _extraer_drive_file_id(url)
+        if not file_id:
+            errores.append(f"opcion_{idx}:url_invalida")
+            continue
+
+        try:
+            content, mime, name = _descargar_drive_bytes(file_id, credentials_path)
+            local_path = _guardar_firma_original_revision(
+                lote_dir=lote_dir,
+                dni=dni,
+                content=content,
+                mime=mime,
+                name=name,
+                overwrite_existing=overwrite_existing,
+                suffix=f"opcion_{idx}",
+            )
+            guardadas.append(str(local_path))
+        except Exception as exc:
+            errores.append(f"opcion_{idx}:{exc}")
+
+    if guardadas:
+        detail = f"opciones={len(urls)} guardadas={len(guardadas)} rutas={';'.join(guardadas)}"
+        if errores:
+            detail = f"{detail} errores={';'.join(errores)}"
+        return {
+            "status": "revision_manual",
+            "observation": f"{dni} MULTIPLES FIRMAS EN FUENTE, OPCIONES GUARDADAS PARA REVISION",
+            "detail": detail,
+            "local_path": guardadas[0],
+        }
+
+    return {
+        "status": "error_descarga",
+        "observation": f"{dni} MULTIPLES FIRMAS EN FUENTE, ERROR DESCARGANDO OPCIONES",
+        "detail": f"opciones={len(urls)} errores={';'.join(errores)}",
+    }
+
+
 def _resolver_uploader(upload_callable: str):
     spec = str(upload_callable or "").strip()
     if not spec:
@@ -1027,11 +1171,21 @@ def procesar_firma_digital_por_dni(
         return {"status": "error_procesamiento", "observation": "DNI INVALIDO", "detail": "dni vacio"}
 
     raw = str(firma_source_map.get(dni_digits, "") or "").strip()
+    urls_multiples = _extraer_urls_multiples_firma(raw)
+    if urls_multiples:
+        return _guardar_multiples_firmas_para_revision(
+            dni=dni_digits,
+            urls=urls_multiples,
+            credentials_path=credentials_path,
+            lote_dir=lote_dir,
+            overwrite_existing=overwrite_existing,
+        )
+
     if raw == "__MULTIPLE__":
         return {
             "status": "revision_manual",
             "observation": f"{dni_digits} MULTIPLES FIRMAS EN FUENTE",
-            "detail": "dni_con_multiples_urls_en_hoja_base",
+            "detail": "dni_con_multiples_urls_en_hoja_base_sin_urls",
         }
 
     if not raw:
@@ -1050,7 +1204,7 @@ def procesar_firma_digital_por_dni(
         }
 
     try:
-        content, mime = _descargar_drive_bytes(file_id, credentials_path)
+        content, mime, name = _descargar_drive_bytes(file_id, credentials_path)
     except Exception as exc:
         return {
             "status": "error_descarga",
@@ -1061,20 +1215,30 @@ def procesar_firma_digital_por_dni(
     try:
         image = _abrir_imagen_procesable(content)
     except Exception as exc:
-        return {
-            "status": "error_procesamiento",
-            "observation": f"{dni_digits} FIRMA NO PROCESABLE",
-            "detail": f"mime={mime} {exc}",
-        }
+        return _revision_manual_con_original(
+            dni=dni_digits,
+            lote_dir=lote_dir,
+            content=content,
+            mime=mime,
+            name=name,
+            overwrite_existing=overwrite_existing,
+            observation=f"{dni_digits} FIRMA NO PROCESABLE, ORIGINAL GUARDADO PARA EDICION",
+            detail=f"open_exception={exc}",
+        )
 
     try:
         processed_img, process_detail, review_manual, thickened = _procesar_firma_imagen(image)
     except Exception as exc:
-        return {
-            "status": "error_procesamiento",
-            "observation": f"{dni_digits} ERROR PROCESAMIENTO FIRMA",
-            "detail": f"mime={mime} process_exception={exc}",
-        }
+        return _revision_manual_con_original(
+            dni=dni_digits,
+            lote_dir=lote_dir,
+            content=content,
+            mime=mime,
+            name=name,
+            overwrite_existing=overwrite_existing,
+            observation=f"{dni_digits} ERROR PROCESAMIENTO FIRMA, ORIGINAL GUARDADO PARA EDICION",
+            detail=f"process_exception={exc}",
+        )
 
     if review_manual:
         if "not_signature_detected" in process_detail:
@@ -1085,31 +1249,51 @@ def procesar_firma_digital_por_dni(
                 "dense_regions",
             )
             if any(marker in process_detail for marker in hard_non_signature_markers):
-                return {
-                    "status": "error_procesamiento",
-                    "observation": f"{dni_digits} NO CORRESPONDE A FIRMA DIGITAL",
-                    "detail": f"mime={mime} {process_detail}",
-                }
-            return {
-                "status": "revision_manual",
-                "observation": f"{dni_digits} PATRON DE FIRMA NO VALIDO, REVISAR FUENTE",
-                "detail": f"mime={mime} {process_detail}",
-            }
-        return {
-            "status": "revision_manual",
-            "observation": f"{dni_digits} FIRMA REQUIERE REVISION MANUAL",
-            "detail": f"mime={mime} {process_detail}",
-        }
+                return _revision_manual_con_original(
+                    dni=dni_digits,
+                    lote_dir=lote_dir,
+                    content=content,
+                    mime=mime,
+                    name=name,
+                    overwrite_existing=overwrite_existing,
+                    observation=f"{dni_digits} FIRMA DUDOSA, ORIGINAL GUARDADO PARA EDICION",
+                    detail=process_detail,
+                )
+            return _revision_manual_con_original(
+                dni=dni_digits,
+                lote_dir=lote_dir,
+                content=content,
+                mime=mime,
+                name=name,
+                overwrite_existing=overwrite_existing,
+                observation=f"{dni_digits} PATRON DE FIRMA NO VALIDO, ORIGINAL GUARDADO PARA EDICION",
+                detail=process_detail,
+            )
+        return _revision_manual_con_original(
+            dni=dni_digits,
+            lote_dir=lote_dir,
+            content=content,
+            mime=mime,
+            name=name,
+            overwrite_existing=overwrite_existing,
+            observation=f"{dni_digits} FIRMA REQUIERE REVISION MANUAL, ORIGINAL GUARDADO PARA EDICION",
+            detail=process_detail,
+        )
 
     target_bytes = max(1, int(max_kb * 1024 * headroom_pct))
     png_data, png_detail, within_limit = _png_menor_a_limite(processed_img, target_bytes)
 
     if strict_size_limit and not within_limit:
-        return {
-            "status": "error_procesamiento",
-            "observation": f"{dni_digits} FIRMA NO CUMPLE LIMITE < {max_kb}KB",
-            "detail": png_detail,
-        }
+        return _revision_manual_con_original(
+            dni=dni_digits,
+            lote_dir=lote_dir,
+            content=content,
+            mime=mime,
+            name=name,
+            overwrite_existing=overwrite_existing,
+            observation=f"{dni_digits} FIRMA NO CUMPLE LIMITE < {max_kb}KB, ORIGINAL GUARDADO PARA EDICION",
+            detail=png_detail,
+        )
 
     try:
         local_path, temp_path, reused_existing = _guardar_firma_local(

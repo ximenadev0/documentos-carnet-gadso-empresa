@@ -156,7 +156,7 @@ def _worker_foto_carne(
     logger,
 ) -> dict[str, int]:
     worker_tag = f"W{worker_id}"
-    resumen = {"procesados": 0, "descargados": 0, "sin_registros": 0, "errores": 0}
+    resumen = {"procesados": 0, "descargados": 0, "sin_registros": 0, "observados": 0, "errores": 0}
 
     while True:
         try:
@@ -225,6 +225,23 @@ def _worker_foto_carne(
                     row_number,
                     cfg.estado_sin_registros,
                     str(resultado.get("observation", "")),
+                    logger,
+                )
+            elif resultado.get("status") == "formato_no_soportado":
+                resumen["observados"] += 1
+                logger.warning(
+                    "[FOTO CARNE][%s][%s] FORMATO NO SOPORTADO | %s | %s",
+                    worker_tag,
+                    dni,
+                    resultado.get("observation", ""),
+                    resultado.get("detail", ""),
+                )
+                _marcar_fila_foto_carne(
+                    cfg,
+                    fieldnames,
+                    row_number,
+                    cfg.estado_error,
+                    str(resultado.get("observation", "FOTO FORMATO NO SOPORTADO")),
                     logger,
                 )
             else:
@@ -319,6 +336,7 @@ def main() -> int:
     procesados = 0
     descargados = 0
     sin_registros = 0
+    observados = 0
     errores = 0
 
     if worker_count > 0:
@@ -341,14 +359,16 @@ def main() -> int:
                 procesados += result.get("procesados", 0)
                 descargados += result.get("descargados", 0)
                 sin_registros += result.get("sin_registros", 0)
+                observados += result.get("observados", 0)
                 errores += result.get("errores", 0)
 
     logger.info(
-        "[FOTO CARNE] Flujo completado | workers=%s | procesados=%s | descargados=%s | sin_registros=%s | errores=%s | lote=%s",
+        "[FOTO CARNE] Flujo completado | workers=%s | procesados=%s | descargados=%s | sin_registros=%s | observados=%s | errores=%s | lote=%s",
         worker_count,
         procesados,
         descargados,
         sin_registros,
+        observados,
         errores,
         lote_dir,
     )

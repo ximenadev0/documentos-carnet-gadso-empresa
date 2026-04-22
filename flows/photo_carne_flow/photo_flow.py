@@ -6,7 +6,7 @@ import threading
 import unicodedata
 from pathlib import Path
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, UnidentifiedImageError
 
 from .sheets import read_google_sheet_rows
 
@@ -103,15 +103,37 @@ def _drive_service(credentials_path: str):
     return svc
 
 
-def _descargar_drive_bytes(file_id: str, credentials_path: str) -> tuple[bytes, str]:
+def _descargar_drive_bytes(file_id: str, credentials_path: str) -> tuple[bytes, str, str]:
     service = _drive_service(credentials_path)
     meta = service.files().get(fileId=file_id, fields="id,name,mimeType", supportsAllDrives=True).execute()
+    name = str(meta.get("name", "") or "")
     mime = str(meta.get("mimeType", "") or "")
 
     content = service.files().get_media(fileId=file_id, supportsAllDrives=True).execute()
     if not isinstance(content, (bytes, bytearray)):
         raise RuntimeError("Drive no devolvio binario para foto")
-    return bytes(content), mime
+    return bytes(content), mime, name
+
+
+def _describir_archivo_drive(name: str, mime: str) -> str:
+    ext = Path(str(name or "").strip()).suffix.lower()
+    partes = []
+    if ext:
+        partes.append(f"extension={ext}")
+    if mime:
+        partes.append(f"mime={mime}")
+    if name:
+        partes.append(f"archivo={name}")
+    return " ".join(partes) if partes else "tipo_desconocido"
+
+
+def _observacion_formato_no_soportado(dni: str, name: str, mime: str) -> str:
+    ext = Path(str(name or "").strip()).suffix.lower()
+    if ext:
+        return f"{dni} FOTO FORMATO NO SOPORTADO ({ext.upper()})"
+    if mime:
+        return f"{dni} FOTO FORMATO NO SOPORTADO ({mime})"
+    return f"{dni} FOTO FORMATO NO SOPORTADO"
 
 
 def _cargar_cv2():
@@ -575,8 +597,22 @@ def procesar_foto_carne_por_dni(
             "detail": f"valor_fuente={raw}",
         }
 
-    content, mime = _descargar_drive_bytes(file_id, credentials_path)
-    image = Image.open(io.BytesIO(content))
+    content, mime, name = _descargar_drive_bytes(file_id, credentials_path)
+    try:
+        image = Image.open(io.BytesIO(content))
+        image.load()
+    except UnidentifiedImageError as exc:
+        return {
+            "status": "formato_no_soportado",
+            "observation": _observacion_formato_no_soportado(dni_digits, name, mime),
+            "detail": f"{_describir_archivo_drive(name, mime)} PIL={exc}",
+        }
+    except Exception as exc:
+        return {
+            "status": "error",
+            "observation": f"{dni_digits} ERROR ABRIENDO FOTO",
+            "detail": f"{_describir_archivo_drive(name, mime)} open_exception={exc}",
+        }
 
     pre_img = image
     pre_detail = "preprocess_skip"
